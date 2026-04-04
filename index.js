@@ -29,17 +29,102 @@ async function getPackageInfo(name) {
 
 async function getTopPackages() {
   return [
-    'lodash', 'express', 'react', 'axios', 'chalk',
-    'commander', 'typescript', 'webpack', 'babel-core', 'eslint',
-    'moment', 'underscore', 'jquery', 'vue', 'angular',
-    'next', 'nuxt', 'gatsby', 'prisma', 'mongoose',
-    'dotenv', 'cors', 'helmet', 'morgan', 'nodemon',
-    'jest', 'mocha', 'chai', 'supertest', 'sinon',
-    'prettier', 'husky', 'lint-staged', 'rollup', 'vite',
+    // HTTP clients
+    'axios', 'got', 'node-fetch', 'superagent', 'undici', 'ky',
+
+    // Core utilities
+    'lodash', 'underscore', 'ramda', 'date-fns', 'moment', 'dayjs',
+    'uuid', 'nanoid', 'shortid', 'cuid',
+
+    // Environment and config
+    'dotenv', 'cross-env', 'config', 'convict', 'env-var',
+
+    // CLI tools
+    'commander', 'yargs', 'meow', 'minimist', 'chalk', 'ora',
+    'inquirer', 'prompts', 'kleur', 'picocolors',
+
+    // Build tools
+    'webpack', 'rollup', 'vite', 'esbuild', 'parcel',
+    'typescript', 'ts-node', 'tsx', 'babel-core', '@babel/core',
+
+    // Testing
+    'jest', 'mocha', 'chai', 'vitest', 'jasmine',
+    'sinon', 'supertest', 'nock', 'playwright', 'puppeteer',
+
+    // Linting and formatting
+    'eslint', 'prettier', 'husky', 'lint-staged', 'stylelint',
+
+    // Frontend frameworks
+    'react', 'vue', 'angular', 'svelte', 'preact', 'solid-js',
+
+    // Meta frameworks
+    'next', 'nuxt', 'gatsby', 'remix', 'astro', 'sveltekit',
+
+    // State management
+    'redux', 'mobx', 'zustand', 'jotai', 'recoil', 'pinia',
+
+    // Database and ORM
+    'mongoose', 'prisma', 'sequelize', 'typeorm', 'knex',
+    'pg', 'mysql2', 'sqlite3', 'redis', 'ioredis',
+
+    // Auth
+    'passport', 'jsonwebtoken', 'bcrypt', 'argon2',
+    'express-session', 'cookie-parser', 'csrf',
+
+    // API and server
+    'express', 'fastify', 'koa', 'hapi', 'nestjs',
+    'cors', 'helmet', 'morgan', 'compression', 'body-parser',
+
+    // Real time
+    'socket.io', 'ws', 'uws', 'sse', 'eventsource',
+
+    // File handling
+    'multer', 'formidable', 'busboy', 'sharp', 'jimp',
+    'archiver', 'unzipper', 'glob', 'minimatch', 'chokidar',
+
+    // Parsing and templating
+    'cheerio', 'jsdom', 'marked', 'showdown', 'handlebars',
+    'ejs', 'pug', 'nunjucks', 'mustache',
+
+    // Crypto and security
+    'crypto-js', 'node-forge', 'jsrsasign', 'jose', 'otpauth',
+
+    // Process and system
+    'nodemon', 'pm2', 'concurrently', 'cross-spawn', 'execa',
+    'shelljs', 'which', 'open', 'got',
+
+    // Semver and package utils
+    'semver', 'validate-npm-package-name', 'pacote', 'npm-registry-fetch',
+
+    // CSS tooling
     'tailwindcss', 'postcss', 'autoprefixer', 'sass', 'less',
-    'socket.io', 'ws', 'uuid', 'bcrypt', 'jsonwebtoken',
-    'multer', 'sharp', 'cheerio', 'puppeteer', 'playwright'
-  ];
+    'styled-components', 'emotion', 'linaria',
+
+    // Logging
+    'winston', 'pino', 'bunyan', 'debug', 'loglevel',
+
+    // Queue and jobs
+    'bull', 'bullmq', 'agenda', 'bee-queue', 'node-cron',
+
+    // AI and ML
+    'openai', '@anthropic-ai/sdk', 'langchain', '@langchain/core',
+    'ollama', 'transformers', '@huggingface/inference',
+
+    // Cloud SDKs
+    '@aws-sdk/client-s3', '@aws-sdk/client-ec2',
+    '@google-cloud/storage', '@azure/storage-blob',
+
+    // Previously attacked packages
+    '@ctrl/tinycolor', 'ngx-bootstrap', 'nx',
+    'telnyx', 'litellm',
+
+    // Package management
+    'npm', 'yarn', 'pnpm',
+
+    // Misc high value
+    'lodash', 'async', 'bluebird', 'rxjs', 'immer',
+    'zod', 'yup', 'joi', 'ajv', 'validator'
+  ].filter((v, i, a) => a.indexOf(v) === i); // dedupe
 }
 
 function diffPackage(old, current) {
