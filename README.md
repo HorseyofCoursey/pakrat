@@ -41,16 +41,19 @@ public, auditable history of package behavior that anyone can query.
 Compares package.json metadata against a known-good baseline on every
 scan. Catches new dependencies, new install scripts, and version changes
 the moment they appear on the registry.
+
 **Layer 2 — Behavioral sandbox**
 Installs the package in an isolated Docker container with tcpdump
 monitoring all network activity. Extracts DNS lookups and flags any
 connections to domains outside a known-good allowlist. Per-package
 whitelisting handles legitimate false positives like puppeteer downloading
 Chromium.
+
 **Layer 3 — Pattern matching**
 Secondary signal layer scanning install output for credential access
 patterns — SSH directory reads, AWS config access, environment variable
 harvesting, base64 encoding.
+
 **Layer 4 — eBPF kernel monitoring**
 Attaches bpftrace probes directly to the Linux kernel while the package
 installs in a Docker container. Watches every process execution, file
@@ -114,7 +117,105 @@ pakrat is not designed to catch:
 
 ## Status
 
-Active. Scanning 50 packages every 5 minutes with four later detection.
+Active. Scanning 186 packages every 5 minutes with four later detection.
+
+## Watched Packages
+
+    // HTTP clients
+    'axios', 'got', 'node-fetch', 'superagent', 'undici', 'ky',
+
+    // Core utilities
+    'lodash', 'underscore', 'ramda', 'date-fns', 'moment', 'dayjs',
+    'uuid', 'nanoid', 'shortid', 'cuid',
+
+    // Environment and config
+    'dotenv', 'cross-env', 'config', 'convict', 'env-var',
+
+    // CLI tools
+    'commander', 'yargs', 'meow', 'minimist', 'chalk', 'ora',
+    'inquirer', 'prompts', 'kleur', 'picocolors',
+
+    // Build tools
+    'webpack', 'rollup', 'vite', 'esbuild', 'parcel',
+    'typescript', 'ts-node', 'tsx', 'babel-core', '@babel/core',
+
+    // Testing
+    'jest', 'mocha', 'chai', 'vitest', 'jasmine',
+    'sinon', 'supertest', 'nock', 'playwright', 'puppeteer',
+
+    // Linting and formatting
+    'eslint', 'prettier', 'husky', 'lint-staged', 'stylelint',
+
+    // Frontend frameworks
+    'react', 'vue', 'angular', 'svelte', 'preact', 'solid-js',
+
+    // Meta frameworks
+    'next', 'nuxt', 'gatsby', 'remix', 'astro', 'sveltekit',
+
+    // State management
+    'redux', 'mobx', 'zustand', 'jotai', 'recoil', 'pinia',
+
+    // Database and ORM
+    'mongoose', 'prisma', 'sequelize', 'typeorm', 'knex',
+    'pg', 'mysql2', 'sqlite3', 'redis', 'ioredis',
+
+    // Auth
+    'passport', 'jsonwebtoken', 'bcrypt', 'argon2',
+    'express-session', 'cookie-parser', 'csrf',
+
+    // API and server
+    'express', 'fastify', 'koa', 'hapi', 'nestjs',
+    'cors', 'helmet', 'morgan', 'compression', 'body-parser',
+
+    // Real time
+    'socket.io', 'ws', 'uws', 'sse', 'eventsource',
+
+    // File handling
+    'multer', 'formidable', 'busboy', 'sharp', 'jimp',
+    'archiver', 'unzipper', 'glob', 'minimatch', 'chokidar',
+
+    // Parsing and templating
+    'cheerio', 'jsdom', 'marked', 'showdown', 'handlebars',
+    'ejs', 'pug', 'nunjucks', 'mustache',
+
+    // Crypto and security
+    'crypto-js', 'node-forge', 'jsrsasign', 'jose', 'otpauth',
+
+    // Process and system
+    'nodemon', 'pm2', 'concurrently', 'cross-spawn', 'execa',
+    'shelljs', 'which', 'open', 'got',
+
+    // Semver and package utils
+    'semver', 'validate-npm-package-name', 'pacote', 'npm-registry-fetch',
+
+    // CSS tooling
+    'tailwindcss', 'postcss', 'autoprefixer', 'sass', 'less',
+    'styled-components', 'emotion', 'linaria',
+
+    // Logging
+    'winston', 'pino', 'bunyan', 'debug', 'loglevel',
+
+    // Queue and jobs
+    'bull', 'bullmq', 'agenda', 'bee-queue', 'node-cron',
+
+    // AI and ML
+    'openai', '@anthropic-ai/sdk', 'langchain', '@langchain/core',
+    'ollama', 'transformers', '@huggingface/inference',
+
+    // Cloud SDKs
+    '@aws-sdk/client-s3', '@aws-sdk/client-ec2',
+    '@google-cloud/storage', '@azure/storage-blob',
+
+    // Previously attacked packages
+    '@ctrl/tinycolor', 'ngx-bootstrap', 'nx',
+    'telnyx', 'litellm',
+
+    // Package management
+    'npm', 'yarn', 'pnpm',
+
+    // Misc high value
+    'lodash', 'async', 'bluebird', 'rxjs', 'immer',
+    'zod', 'yup', 'joi', 'ajv', 'validator'
 
 ---
 
