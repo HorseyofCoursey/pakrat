@@ -3,6 +3,7 @@ require('dotenv').config();
 const axios = require('axios');
 const { runSandbox } = require('./sandbox');
 const fs = require('fs');
+const { runEbpfSandbox } = require('./ebpf-monitor');
 
 async function getPackageInfo(name) {
   const url = `https://registry.npmjs.org/${name}/latest`;
@@ -39,6 +40,17 @@ async function scanPackage(name) {
 
   console.log(`\nrunning sandbox...\n`);
   const result = runSandbox(name, info.version);
+
+  console.log(`\nrunning eBPF kernel monitor...\n`);
+  const ebpfResult = runEbpfSandbox(name, info.version);
+  console.log(`  kernel events captured: ${ebpfResult.processes.length + ebpfResult.fileAccess.length} suspicious`);
+
+  if (ebpfResult.suspiciousActivity.length > 0) {
+    console.log(`🚨 EBPF SUSPICIOUS ACTIVITY:`);
+    ebpfResult.suspiciousActivity.forEach(a => console.log(`  ⚠️  ${a}`));
+  } else {
+    console.log(`  ✅ eBPF clean - no suspicious kernel activity`);
+  }
 
   if (result.suspiciousActivity.length > 0) {
     console.log(`🚨 SUSPICIOUS ACTIVITY DETECTED:`);

@@ -3,6 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const { execSync } = require('child_process');
 const { runSandbox } = require('./sandbox');
+const { runEbpfSandbox } = require('./ebpf-monitor');
 
 async function sendDiscordAlert(message) {
   try {
@@ -136,18 +137,30 @@ async function run() {
           alertMessages.push(`**${pkg}**: ${a}`);
         });
 
-        // Run sandbox on anything that triggered an alert
-        console.log(`  [sandbox] running behavioral analysis...`);
+        // Run tcpdump sandbox
+        console.log(`  [sandbox] running network analysis...`);
         const sandboxResult = runSandbox(pkg, current.version);
 
         if (sandboxResult.suspiciousActivity.length > 0) {
-          const sandboxAlerts = sandboxResult.suspiciousActivity.map(s => `🔬 SANDBOX: ${s}`);
-          sandboxAlerts.forEach(a => {
-            console.log(`  ${a}`);
-            alertMessages.push(`**${pkg}**: ${a}`);
+          sandboxResult.suspiciousActivity.forEach(a => {
+            console.log(`  🔬 SANDBOX: ${a}`);
+            alertMessages.push(`**${pkg}**: 🔬 SANDBOX: ${a}`);
           });
         } else {
           console.log(`  [sandbox] nothing suspicious at install time`);
+        }
+
+        // Run eBPF kernel monitor
+        console.log(`  [ebpf] running kernel analysis...`);
+        const ebpfResult = runEbpfSandbox(pkg, current.version);
+
+        if (ebpfResult.suspiciousActivity.length > 0) {
+          ebpfResult.suspiciousActivity.forEach(a => {
+            console.log(`  🔬 EBPF: ${a}`);
+            alertMessages.push(`**${pkg}**: 🔬 EBPF: ${a}`);
+          });
+        } else {
+          console.log(`  [ebpf] nothing suspicious at kernel level`);
         }
 
       } else {
