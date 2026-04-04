@@ -38,21 +38,25 @@ public, auditable history of package behavior that anyone can query.
 ## Detection layers
 
 **Layer 1 — Manifest diffing**
-Compares package.json metadata against a known-good baseline on every 
-scan. Catches new dependencies, new install scripts, and version changes 
+Compares package.json metadata against a known-good baseline on every
+scan. Catches new dependencies, new install scripts, and version changes
 the moment they appear on the registry.
-
 **Layer 2 — Behavioral sandbox**
-Installs the package in an isolated Docker container with tcpdump 
-monitoring all network activity. Extracts DNS lookups and flags any 
-connections to domains outside a known-good allowlist. Per-package 
-whitelisting handles legitimate false positives like puppeteer downloading 
+Installs the package in an isolated Docker container with tcpdump
+monitoring all network activity. Extracts DNS lookups and flags any
+connections to domains outside a known-good allowlist. Per-package
+whitelisting handles legitimate false positives like puppeteer downloading
 Chromium.
-
 **Layer 3 — Pattern matching**
-Secondary signal layer scanning install output for credential access 
-patterns — SSH directory reads, AWS config access, environment variable 
+Secondary signal layer scanning install output for credential access
+patterns — SSH directory reads, AWS config access, environment variable
 harvesting, base64 encoding.
+**Layer 4 — eBPF kernel monitoring**
+Attaches bpftrace probes directly to the Linux kernel while the package
+installs in a Docker container. Watches every process execution, file
+access, and network connection at the syscall level — completely invisible
+to anything running inside the container. A RAT cannot detect or evade
+kernel-level observation from outside its execution environment.
 
 ## CLI usage
 
@@ -98,18 +102,19 @@ pakrat is not designed to catch:
 - [x] Manifest diffing and baseline comparison
 - [x] Docker sandbox with tcpdump network monitoring
 - [x] DNS-based suspicious activity detection
+- [x] Pattern matching on install output
 - [x] Per-package whitelist for false positives
 - [x] Discord alerting
 - [x] CLI scanner
 - [x] Public scan log pushing to GitHub
-- [ ] eBPF syscall monitoring
+- [x] eBPF kernel-level syscall monitoring
 - [ ] VM-based sandbox for evasion-resistant analysis
 - [ ] PyPI and RubyGems support
 - [ ] Web dashboard and API
 
 ## Status
 
-Active. Scanning 50 packages every 5 minutes.
+Active. Scanning 50 packages every 5 minutes with four later detection.
 
 ---
 
