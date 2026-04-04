@@ -221,3 +221,5 @@ Active. Scanning 186 packages every 5 minutes with four later detection.
 
 *pakrat is an early stage open source project. Contributions, 
 whitelist additions, and package suggestions welcome.*
+
+🐀 Developer Inspiration: https://www.youtube.com/watch?v=jausD8qsnKU
