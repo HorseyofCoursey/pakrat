@@ -3,6 +3,311 @@
   "repo": "https://github.com/HorseyofCoursey/pakrat",
   "scans": [
     {
+      "timestamp": "2026-04-04T16:15:13.114Z",
+      "packages": [
+        {
+          "name": "lodash",
+          "version": "4.18.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "express",
+          "version": "5.2.1",
+          "depCount": 28,
+          "hasInstallScript": false
+        },
+        {
+          "name": "react",
+          "version": "19.2.4",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "axios",
+          "version": "1.14.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "chalk",
+          "version": "5.6.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "commander",
+          "version": "14.0.3",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "typescript",
+          "version": "6.0.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "webpack",
+          "version": "5.105.4",
+          "depCount": 25,
+          "hasInstallScript": false
+        },
+        {
+          "name": "babel-core",
+          "version": "6.26.3",
+          "depCount": 19,
+          "hasInstallScript": false
+        },
+        {
+          "name": "eslint",
+          "version": "10.2.0",
+          "depCount": 30,
+          "hasInstallScript": false
+        },
+        {
+          "name": "moment",
+          "version": "2.30.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "underscore",
+          "version": "1.13.8",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jquery",
+          "version": "4.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "vue",
+          "version": "3.5.32",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "angular",
+          "version": "1.8.3",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "next",
+          "version": "16.2.2",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nuxt",
+          "version": "4.4.2",
+          "depCount": 56,
+          "hasInstallScript": false
+        },
+        {
+          "name": "gatsby",
+          "version": "5.16.1",
+          "depCount": 167,
+          "hasInstallScript": true
+        },
+        {
+          "name": "prisma",
+          "version": "7.6.0",
+          "depCount": 6,
+          "hasInstallScript": true
+        },
+        {
+          "name": "mongoose",
+          "version": "9.4.1",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "dotenv",
+          "version": "17.4.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cors",
+          "version": "2.8.6",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "helmet",
+          "version": "8.1.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "morgan",
+          "version": "1.10.1",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nodemon",
+          "version": "3.1.14",
+          "depCount": 10,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jest",
+          "version": "30.3.0",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mocha",
+          "version": "11.7.5",
+          "depCount": 21,
+          "hasInstallScript": false
+        },
+        {
+          "name": "chai",
+          "version": "6.2.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "supertest",
+          "version": "7.2.2",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sinon",
+          "version": "21.0.3",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "prettier",
+          "version": "3.8.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "husky",
+          "version": "9.1.7",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "lint-staged",
+          "version": "16.4.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "rollup",
+          "version": "4.60.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "vite",
+          "version": "8.0.3",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "tailwindcss",
+          "version": "4.2.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "postcss",
+          "version": "8.5.8",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "autoprefixer",
+          "version": "10.4.27",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sass",
+          "version": "1.99.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "less",
+          "version": "4.6.4",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "socket.io",
+          "version": "4.8.3",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ws",
+          "version": "8.20.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "uuid",
+          "version": "13.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bcrypt",
+          "version": "6.0.0",
+          "depCount": 2,
+          "hasInstallScript": true
+        },
+        {
+          "name": "jsonwebtoken",
+          "version": "9.0.3",
+          "depCount": 10,
+          "hasInstallScript": false
+        },
+        {
+          "name": "multer",
+          "version": "2.1.1",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sharp",
+          "version": "0.34.5",
+          "depCount": 3,
+          "hasInstallScript": true
+        },
+        {
+          "name": "cheerio",
+          "version": "1.2.0",
+          "depCount": 11,
+          "hasInstallScript": false
+        },
+        {
+          "name": "puppeteer",
+          "version": "24.40.0",
+          "depCount": 6,
+          "hasInstallScript": true
+        },
+        {
+          "name": "playwright",
+          "version": "1.59.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-04T16:10:03.840Z",
       "packages": [
         {
