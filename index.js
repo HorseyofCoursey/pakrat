@@ -58,7 +58,7 @@ async function getTopPackages() {
     'react', 'vue', 'angular', 'svelte', 'preact', 'solid-js',
 
     // Meta frameworks
-    'next', 'nuxt', 'gatsby', 'remix', 'astro', 'sveltekit',
+    'next', 'nuxt', 'gatsby', 'remix', 'astro', '@sveltejs/kit',
 
     // State management
     'redux', 'mobx', 'zustand', 'jotai', 'recoil', 'pinia',
