@@ -1,0 +1,14 @@
+{
+  "puppeteer": {
+    "allowedDomains": ["storage.googleapis.com"],
+    "reason": "downloads Chromium browser at install time"
+  },
+  "node-sass": {
+    "allowedDomains": ["github.com", "objects.githubusercontent.com"],
+    "reason": "downloads native bindings from GitHub releases"
+  },
+  "sharp": {
+    "allowedDomains": ["github.com", "objects.githubusercontent.com"],
+    "reason": "downloads prebuilt native binaries from GitHub"
+  }
+}
