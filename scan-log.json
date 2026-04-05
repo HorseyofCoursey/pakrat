@@ -3,6 +3,1139 @@
   "repo": "https://github.com/HorseyofCoursey/pakrat",
   "scans": [
     {
+      "timestamp": "2026-04-05T05:55:08.679Z",
+      "packages": [
+        {
+          "name": "axios",
+          "version": "1.14.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "got",
+          "version": "15.0.0",
+          "depCount": 12,
+          "hasInstallScript": false
+        },
+        {
+          "name": "node-fetch",
+          "version": "3.3.2",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "superagent",
+          "version": "10.3.0",
+          "depCount": 9,
+          "hasInstallScript": false
+        },
+        {
+          "name": "undici",
+          "version": "8.0.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ky",
+          "version": "1.14.3",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "lodash",
+          "version": "4.18.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "underscore",
+          "version": "1.13.8",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ramda",
+          "version": "0.32.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "date-fns",
+          "version": "4.1.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "moment",
+          "version": "2.30.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "dayjs",
+          "version": "1.11.20",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "uuid",
+          "version": "13.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nanoid",
+          "version": "5.1.7",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "shortid",
+          "version": "2.2.17",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cuid",
+          "version": "3.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "dotenv",
+          "version": "17.4.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cross-env",
+          "version": "10.1.0",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "config",
+          "version": "4.4.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "convict",
+          "version": "6.2.5",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "env-var",
+          "version": "7.5.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "commander",
+          "version": "14.0.3",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "yargs",
+          "version": "18.0.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "meow",
+          "version": "14.1.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "minimist",
+          "version": "1.2.8",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "chalk",
+          "version": "5.6.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ora",
+          "version": "9.3.0",
+          "depCount": 8,
+          "hasInstallScript": false
+        },
+        {
+          "name": "inquirer",
+          "version": "13.3.2",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "prompts",
+          "version": "2.4.2",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "kleur",
+          "version": "4.1.5",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "picocolors",
+          "version": "1.1.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "webpack",
+          "version": "5.105.4",
+          "depCount": 25,
+          "hasInstallScript": false
+        },
+        {
+          "name": "rollup",
+          "version": "4.60.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "vite",
+          "version": "8.0.3",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "esbuild",
+          "version": "0.28.0",
+          "depCount": 0,
+          "hasInstallScript": true
+        },
+        {
+          "name": "parcel",
+          "version": "2.16.4",
+          "depCount": 15,
+          "hasInstallScript": false
+        },
+        {
+          "name": "typescript",
+          "version": "6.0.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ts-node",
+          "version": "10.9.2",
+          "depCount": 13,
+          "hasInstallScript": false
+        },
+        {
+          "name": "tsx",
+          "version": "4.21.0",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "babel-core",
+          "version": "6.26.3",
+          "depCount": 19,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@babel/core",
+          "version": "7.29.0",
+          "depCount": 15,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jest",
+          "version": "30.3.0",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mocha",
+          "version": "11.7.5",
+          "depCount": 21,
+          "hasInstallScript": false
+        },
+        {
+          "name": "chai",
+          "version": "6.2.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "vitest",
+          "version": "4.1.2",
+          "depCount": 20,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jasmine",
+          "version": "6.1.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sinon",
+          "version": "21.0.3",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "supertest",
+          "version": "7.2.2",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nock",
+          "version": "14.0.11",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "playwright",
+          "version": "1.59.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "puppeteer",
+          "version": "24.40.0",
+          "depCount": 6,
+          "hasInstallScript": true
+        },
+        {
+          "name": "eslint",
+          "version": "10.2.0",
+          "depCount": 30,
+          "hasInstallScript": false
+        },
+        {
+          "name": "prettier",
+          "version": "3.8.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "husky",
+          "version": "9.1.7",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "lint-staged",
+          "version": "16.4.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "stylelint",
+          "version": "17.6.0",
+          "depCount": 36,
+          "hasInstallScript": false
+        },
+        {
+          "name": "react",
+          "version": "19.2.4",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "vue",
+          "version": "3.5.32",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "angular",
+          "version": "1.8.3",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "svelte",
+          "version": "5.55.1",
+          "depCount": 16,
+          "hasInstallScript": false
+        },
+        {
+          "name": "preact",
+          "version": "10.29.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "solid-js",
+          "version": "1.9.12",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "next",
+          "version": "16.2.2",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nuxt",
+          "version": "4.4.2",
+          "depCount": 56,
+          "hasInstallScript": false
+        },
+        {
+          "name": "gatsby",
+          "version": "5.16.1",
+          "depCount": 167,
+          "hasInstallScript": true
+        },
+        {
+          "name": "remix",
+          "version": "2.17.4",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "astro",
+          "version": "6.1.3",
+          "depCount": 55,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@sveltejs/kit",
+          "version": "2.56.1",
+          "depCount": 12,
+          "hasInstallScript": false
+        },
+        {
+          "name": "redux",
+          "version": "5.0.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mobx",
+          "version": "6.15.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "zustand",
+          "version": "5.0.12",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jotai",
+          "version": "2.19.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "recoil",
+          "version": "0.7.7",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pinia",
+          "version": "3.0.4",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mongoose",
+          "version": "9.4.1",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "prisma",
+          "version": "7.6.0",
+          "depCount": 6,
+          "hasInstallScript": true
+        },
+        {
+          "name": "sequelize",
+          "version": "6.37.8",
+          "depCount": 16,
+          "hasInstallScript": false
+        },
+        {
+          "name": "typeorm",
+          "version": "0.3.28",
+          "depCount": 15,
+          "hasInstallScript": false
+        },
+        {
+          "name": "knex",
+          "version": "3.2.9",
+          "depCount": 14,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pg",
+          "version": "8.20.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mysql2",
+          "version": "3.20.0",
+          "depCount": 8,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sqlite3",
+          "version": "6.0.1",
+          "depCount": 4,
+          "hasInstallScript": true
+        },
+        {
+          "name": "redis",
+          "version": "5.11.0",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ioredis",
+          "version": "5.10.1",
+          "depCount": 9,
+          "hasInstallScript": false
+        },
+        {
+          "name": "passport",
+          "version": "0.7.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jsonwebtoken",
+          "version": "9.0.3",
+          "depCount": 10,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bcrypt",
+          "version": "6.0.0",
+          "depCount": 2,
+          "hasInstallScript": true
+        },
+        {
+          "name": "argon2",
+          "version": "0.44.0",
+          "depCount": 4,
+          "hasInstallScript": true
+        },
+        {
+          "name": "express-session",
+          "version": "1.19.0",
+          "depCount": 8,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cookie-parser",
+          "version": "1.4.7",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "csrf",
+          "version": "3.1.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "express",
+          "version": "5.2.1",
+          "depCount": 28,
+          "hasInstallScript": false
+        },
+        {
+          "name": "fastify",
+          "version": "5.8.4",
+          "depCount": 15,
+          "hasInstallScript": false
+        },
+        {
+          "name": "koa",
+          "version": "3.2.0",
+          "depCount": 18,
+          "hasInstallScript": false
+        },
+        {
+          "name": "hapi",
+          "version": "18.1.0",
+          "depCount": 18,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nestjs",
+          "version": "0.0.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cors",
+          "version": "2.8.6",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "helmet",
+          "version": "8.1.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "morgan",
+          "version": "1.10.1",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "compression",
+          "version": "1.8.1",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "body-parser",
+          "version": "2.2.2",
+          "depCount": 9,
+          "hasInstallScript": false
+        },
+        {
+          "name": "socket.io",
+          "version": "4.8.3",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ws",
+          "version": "8.20.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "uws",
+          "version": "200.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sse",
+          "version": "0.0.8",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "eventsource",
+          "version": "4.1.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "multer",
+          "version": "2.1.1",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "formidable",
+          "version": "3.5.4",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "busboy",
+          "version": "1.6.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sharp",
+          "version": "0.34.5",
+          "depCount": 3,
+          "hasInstallScript": true
+        },
+        {
+          "name": "jimp",
+          "version": "1.6.0",
+          "depCount": 27,
+          "hasInstallScript": false
+        },
+        {
+          "name": "archiver",
+          "version": "7.0.1",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "unzipper",
+          "version": "0.12.3",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "glob",
+          "version": "13.0.6",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "minimatch",
+          "version": "10.2.5",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "chokidar",
+          "version": "5.0.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cheerio",
+          "version": "1.2.0",
+          "depCount": 11,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jsdom",
+          "version": "29.0.1",
+          "depCount": 21,
+          "hasInstallScript": false
+        },
+        {
+          "name": "marked",
+          "version": "17.0.5",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "showdown",
+          "version": "2.1.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "handlebars",
+          "version": "4.7.9",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ejs",
+          "version": "5.0.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pug",
+          "version": "3.0.4",
+          "depCount": 8,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nunjucks",
+          "version": "3.2.4",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "mustache",
+          "version": "4.2.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "crypto-js",
+          "version": "4.2.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "node-forge",
+          "version": "1.4.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jsrsasign",
+          "version": "11.1.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "jose",
+          "version": "6.2.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "otpauth",
+          "version": "9.5.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nodemon",
+          "version": "3.1.14",
+          "depCount": 10,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pm2",
+          "version": "6.0.14",
+          "depCount": 29,
+          "hasInstallScript": false
+        },
+        {
+          "name": "concurrently",
+          "version": "9.2.1",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "cross-spawn",
+          "version": "7.0.6",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "execa",
+          "version": "9.6.1",
+          "depCount": 12,
+          "hasInstallScript": false
+        },
+        {
+          "name": "shelljs",
+          "version": "0.10.0",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "which",
+          "version": "6.0.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "open",
+          "version": "11.0.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "semver",
+          "version": "7.7.4",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "validate-npm-package-name",
+          "version": "7.0.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pacote",
+          "version": "21.5.0",
+          "depCount": 17,
+          "hasInstallScript": false
+        },
+        {
+          "name": "npm-registry-fetch",
+          "version": "19.1.1",
+          "depCount": 8,
+          "hasInstallScript": false
+        },
+        {
+          "name": "tailwindcss",
+          "version": "4.2.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "postcss",
+          "version": "8.5.8",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "autoprefixer",
+          "version": "10.4.27",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "sass",
+          "version": "1.99.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "less",
+          "version": "4.6.4",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "styled-components",
+          "version": "6.3.12",
+          "depCount": 9,
+          "hasInstallScript": false
+        },
+        {
+          "name": "emotion",
+          "version": "11.0.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "linaria",
+          "version": "7.0.1",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "winston",
+          "version": "3.19.0",
+          "depCount": 11,
+          "hasInstallScript": false
+        },
+        {
+          "name": "pino",
+          "version": "10.3.1",
+          "depCount": 11,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bunyan",
+          "version": "1.8.15",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "debug",
+          "version": "4.4.3",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "loglevel",
+          "version": "1.9.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bull",
+          "version": "4.16.5",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bullmq",
+          "version": "5.73.0",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "agenda",
+          "version": "6.2.4",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bee-queue",
+          "version": "2.0.0",
+          "depCount": 3,
+          "hasInstallScript": false
+        },
+        {
+          "name": "node-cron",
+          "version": "4.2.1",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "openai",
+          "version": "6.33.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@anthropic-ai/sdk",
+          "version": "0.82.0",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "langchain",
+          "version": "1.3.0",
+          "depCount": 5,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@langchain/core",
+          "version": "1.1.39",
+          "depCount": 11,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ollama",
+          "version": "0.6.3",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "transformers",
+          "version": "3.1.0",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@huggingface/inference",
+          "version": "4.13.15",
+          "depCount": 2,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@aws-sdk/client-s3",
+          "version": "3.1024.0",
+          "depCount": 55,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@aws-sdk/client-ec2",
+          "version": "3.1024.0",
+          "depCount": 41,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@google-cloud/storage",
+          "version": "7.19.0",
+          "depCount": 15,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@azure/storage-blob",
+          "version": "12.31.0",
+          "depCount": 14,
+          "hasInstallScript": false
+        },
+        {
+          "name": "@ctrl/tinycolor",
+          "version": "4.2.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ngx-bootstrap",
+          "version": "21.0.1",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "nx",
+          "version": "22.6.4",
+          "depCount": 36,
+          "hasInstallScript": true
+        },
+        {
+          "name": "telnyx",
+          "version": "6.29.7",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "litellm",
+          "version": "0.12.0",
+          "depCount": 6,
+          "hasInstallScript": false
+        },
+        {
+          "name": "npm",
+          "version": "11.12.1",
+          "depCount": 65,
+          "hasInstallScript": false
+        },
+        {
+          "name": "yarn",
+          "version": "1.22.22",
+          "depCount": 0,
+          "hasInstallScript": true
+        },
+        {
+          "name": "pnpm",
+          "version": "10.33.0",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "async",
+          "version": "3.2.6",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "bluebird",
+          "version": "3.7.2",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "rxjs",
+          "version": "7.8.2",
+          "depCount": 1,
+          "hasInstallScript": false
+        },
+        {
+          "name": "immer",
+          "version": "11.1.4",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "zod",
+          "version": "4.3.6",
+          "depCount": 0,
+          "hasInstallScript": false
+        },
+        {
+          "name": "yup",
+          "version": "1.7.1",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "joi",
+          "version": "18.1.2",
+          "depCount": 7,
+          "hasInstallScript": false
+        },
+        {
+          "name": "ajv",
+          "version": "8.18.0",
+          "depCount": 4,
+          "hasInstallScript": false
+        },
+        {
+          "name": "validator",
+          "version": "13.15.35",
+          "depCount": 0,
+          "hasInstallScript": false
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-05T05:50:35.807Z",
       "packages": [
         {
@@ -111032,1139 +112165,6 @@
     },
     {
       "timestamp": "2026-04-04T21:40:33.146Z",
-      "packages": [
-        {
-          "name": "axios",
-          "version": "1.14.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "got",
-          "version": "15.0.0",
-          "depCount": 12,
-          "hasInstallScript": false
-        },
-        {
-          "name": "node-fetch",
-          "version": "3.3.2",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "superagent",
-          "version": "10.3.0",
-          "depCount": 9,
-          "hasInstallScript": false
-        },
-        {
-          "name": "undici",
-          "version": "8.0.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ky",
-          "version": "1.14.3",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "lodash",
-          "version": "4.18.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "underscore",
-          "version": "1.13.8",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ramda",
-          "version": "0.32.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "date-fns",
-          "version": "4.1.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "moment",
-          "version": "2.30.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "dayjs",
-          "version": "1.11.20",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "uuid",
-          "version": "13.0.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nanoid",
-          "version": "5.1.7",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "shortid",
-          "version": "2.2.17",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cuid",
-          "version": "3.0.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "dotenv",
-          "version": "17.4.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cross-env",
-          "version": "10.1.0",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "config",
-          "version": "4.4.1",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "convict",
-          "version": "6.2.5",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "env-var",
-          "version": "7.5.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "commander",
-          "version": "14.0.3",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "yargs",
-          "version": "18.0.0",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "meow",
-          "version": "14.1.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "minimist",
-          "version": "1.2.8",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "chalk",
-          "version": "5.6.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ora",
-          "version": "9.3.0",
-          "depCount": 8,
-          "hasInstallScript": false
-        },
-        {
-          "name": "inquirer",
-          "version": "13.3.2",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "prompts",
-          "version": "2.4.2",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "kleur",
-          "version": "4.1.5",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "picocolors",
-          "version": "1.1.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "webpack",
-          "version": "5.105.4",
-          "depCount": 25,
-          "hasInstallScript": false
-        },
-        {
-          "name": "rollup",
-          "version": "4.60.1",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "vite",
-          "version": "8.0.3",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "esbuild",
-          "version": "0.28.0",
-          "depCount": 0,
-          "hasInstallScript": true
-        },
-        {
-          "name": "parcel",
-          "version": "2.16.4",
-          "depCount": 15,
-          "hasInstallScript": false
-        },
-        {
-          "name": "typescript",
-          "version": "6.0.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ts-node",
-          "version": "10.9.2",
-          "depCount": 13,
-          "hasInstallScript": false
-        },
-        {
-          "name": "tsx",
-          "version": "4.21.0",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "babel-core",
-          "version": "6.26.3",
-          "depCount": 19,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@babel/core",
-          "version": "7.29.0",
-          "depCount": 15,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jest",
-          "version": "30.3.0",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "mocha",
-          "version": "11.7.5",
-          "depCount": 21,
-          "hasInstallScript": false
-        },
-        {
-          "name": "chai",
-          "version": "6.2.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "vitest",
-          "version": "4.1.2",
-          "depCount": 20,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jasmine",
-          "version": "6.1.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "sinon",
-          "version": "21.0.3",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "supertest",
-          "version": "7.2.2",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nock",
-          "version": "14.0.11",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "playwright",
-          "version": "1.59.1",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "puppeteer",
-          "version": "24.40.0",
-          "depCount": 6,
-          "hasInstallScript": true
-        },
-        {
-          "name": "eslint",
-          "version": "10.2.0",
-          "depCount": 30,
-          "hasInstallScript": false
-        },
-        {
-          "name": "prettier",
-          "version": "3.8.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "husky",
-          "version": "9.1.7",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "lint-staged",
-          "version": "16.4.0",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "stylelint",
-          "version": "17.6.0",
-          "depCount": 36,
-          "hasInstallScript": false
-        },
-        {
-          "name": "react",
-          "version": "19.2.4",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "vue",
-          "version": "3.5.32",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "angular",
-          "version": "1.8.3",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "svelte",
-          "version": "5.55.1",
-          "depCount": 16,
-          "hasInstallScript": false
-        },
-        {
-          "name": "preact",
-          "version": "10.29.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "solid-js",
-          "version": "1.9.12",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "next",
-          "version": "16.2.2",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nuxt",
-          "version": "4.4.2",
-          "depCount": 56,
-          "hasInstallScript": false
-        },
-        {
-          "name": "gatsby",
-          "version": "5.16.1",
-          "depCount": 167,
-          "hasInstallScript": true
-        },
-        {
-          "name": "remix",
-          "version": "2.17.4",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "astro",
-          "version": "6.1.3",
-          "depCount": 55,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@sveltejs/kit",
-          "version": "2.56.1",
-          "depCount": 12,
-          "hasInstallScript": false
-        },
-        {
-          "name": "redux",
-          "version": "5.0.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "mobx",
-          "version": "6.15.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "zustand",
-          "version": "5.0.12",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jotai",
-          "version": "2.19.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "recoil",
-          "version": "0.7.7",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pinia",
-          "version": "3.0.4",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "mongoose",
-          "version": "9.4.1",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "prisma",
-          "version": "7.6.0",
-          "depCount": 6,
-          "hasInstallScript": true
-        },
-        {
-          "name": "sequelize",
-          "version": "6.37.8",
-          "depCount": 16,
-          "hasInstallScript": false
-        },
-        {
-          "name": "typeorm",
-          "version": "0.3.28",
-          "depCount": 15,
-          "hasInstallScript": false
-        },
-        {
-          "name": "knex",
-          "version": "3.2.9",
-          "depCount": 14,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pg",
-          "version": "8.20.0",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "mysql2",
-          "version": "3.20.0",
-          "depCount": 8,
-          "hasInstallScript": false
-        },
-        {
-          "name": "sqlite3",
-          "version": "6.0.1",
-          "depCount": 4,
-          "hasInstallScript": true
-        },
-        {
-          "name": "redis",
-          "version": "5.11.0",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ioredis",
-          "version": "5.10.1",
-          "depCount": 9,
-          "hasInstallScript": false
-        },
-        {
-          "name": "passport",
-          "version": "0.7.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jsonwebtoken",
-          "version": "9.0.3",
-          "depCount": 10,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bcrypt",
-          "version": "6.0.0",
-          "depCount": 2,
-          "hasInstallScript": true
-        },
-        {
-          "name": "argon2",
-          "version": "0.44.0",
-          "depCount": 4,
-          "hasInstallScript": true
-        },
-        {
-          "name": "express-session",
-          "version": "1.19.0",
-          "depCount": 8,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cookie-parser",
-          "version": "1.4.7",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "csrf",
-          "version": "3.1.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "express",
-          "version": "5.2.1",
-          "depCount": 28,
-          "hasInstallScript": false
-        },
-        {
-          "name": "fastify",
-          "version": "5.8.4",
-          "depCount": 15,
-          "hasInstallScript": false
-        },
-        {
-          "name": "koa",
-          "version": "3.2.0",
-          "depCount": 18,
-          "hasInstallScript": false
-        },
-        {
-          "name": "hapi",
-          "version": "18.1.0",
-          "depCount": 18,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nestjs",
-          "version": "0.0.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cors",
-          "version": "2.8.6",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "helmet",
-          "version": "8.1.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "morgan",
-          "version": "1.10.1",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "compression",
-          "version": "1.8.1",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "body-parser",
-          "version": "2.2.2",
-          "depCount": 9,
-          "hasInstallScript": false
-        },
-        {
-          "name": "socket.io",
-          "version": "4.8.3",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ws",
-          "version": "8.20.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "uws",
-          "version": "200.0.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "sse",
-          "version": "0.0.8",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "eventsource",
-          "version": "4.1.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "multer",
-          "version": "2.1.1",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "formidable",
-          "version": "3.5.4",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "busboy",
-          "version": "1.6.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "sharp",
-          "version": "0.34.5",
-          "depCount": 3,
-          "hasInstallScript": true
-        },
-        {
-          "name": "jimp",
-          "version": "1.6.0",
-          "depCount": 27,
-          "hasInstallScript": false
-        },
-        {
-          "name": "archiver",
-          "version": "7.0.1",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "unzipper",
-          "version": "0.12.3",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "glob",
-          "version": "13.0.6",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "minimatch",
-          "version": "10.2.5",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "chokidar",
-          "version": "5.0.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cheerio",
-          "version": "1.2.0",
-          "depCount": 11,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jsdom",
-          "version": "29.0.1",
-          "depCount": 21,
-          "hasInstallScript": false
-        },
-        {
-          "name": "marked",
-          "version": "17.0.5",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "showdown",
-          "version": "2.1.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "handlebars",
-          "version": "4.7.9",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ejs",
-          "version": "5.0.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pug",
-          "version": "3.0.4",
-          "depCount": 8,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nunjucks",
-          "version": "3.2.4",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "mustache",
-          "version": "4.2.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "crypto-js",
-          "version": "4.2.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "node-forge",
-          "version": "1.4.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jsrsasign",
-          "version": "11.1.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "jose",
-          "version": "6.2.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "otpauth",
-          "version": "9.5.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nodemon",
-          "version": "3.1.14",
-          "depCount": 10,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pm2",
-          "version": "6.0.14",
-          "depCount": 29,
-          "hasInstallScript": false
-        },
-        {
-          "name": "concurrently",
-          "version": "9.2.1",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "cross-spawn",
-          "version": "7.0.6",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "execa",
-          "version": "9.6.1",
-          "depCount": 12,
-          "hasInstallScript": false
-        },
-        {
-          "name": "shelljs",
-          "version": "0.10.0",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "which",
-          "version": "6.0.1",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "open",
-          "version": "11.0.0",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "semver",
-          "version": "7.7.4",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "validate-npm-package-name",
-          "version": "7.0.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pacote",
-          "version": "21.5.0",
-          "depCount": 17,
-          "hasInstallScript": false
-        },
-        {
-          "name": "npm-registry-fetch",
-          "version": "19.1.1",
-          "depCount": 8,
-          "hasInstallScript": false
-        },
-        {
-          "name": "tailwindcss",
-          "version": "4.2.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "postcss",
-          "version": "8.5.8",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "autoprefixer",
-          "version": "10.4.27",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "sass",
-          "version": "1.99.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "less",
-          "version": "4.6.4",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "styled-components",
-          "version": "6.3.12",
-          "depCount": 9,
-          "hasInstallScript": false
-        },
-        {
-          "name": "emotion",
-          "version": "11.0.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "linaria",
-          "version": "7.0.1",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "winston",
-          "version": "3.19.0",
-          "depCount": 11,
-          "hasInstallScript": false
-        },
-        {
-          "name": "pino",
-          "version": "10.3.1",
-          "depCount": 11,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bunyan",
-          "version": "1.8.15",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "debug",
-          "version": "4.4.3",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "loglevel",
-          "version": "1.9.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bull",
-          "version": "4.16.5",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bullmq",
-          "version": "5.73.0",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "agenda",
-          "version": "6.2.4",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bee-queue",
-          "version": "2.0.0",
-          "depCount": 3,
-          "hasInstallScript": false
-        },
-        {
-          "name": "node-cron",
-          "version": "4.2.1",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "openai",
-          "version": "6.33.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@anthropic-ai/sdk",
-          "version": "0.82.0",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "langchain",
-          "version": "1.3.0",
-          "depCount": 5,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@langchain/core",
-          "version": "1.1.39",
-          "depCount": 11,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ollama",
-          "version": "0.6.3",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "transformers",
-          "version": "3.1.0",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@huggingface/inference",
-          "version": "4.13.15",
-          "depCount": 2,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@aws-sdk/client-s3",
-          "version": "3.1024.0",
-          "depCount": 55,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@aws-sdk/client-ec2",
-          "version": "3.1024.0",
-          "depCount": 41,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@google-cloud/storage",
-          "version": "7.19.0",
-          "depCount": 15,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@azure/storage-blob",
-          "version": "12.31.0",
-          "depCount": 14,
-          "hasInstallScript": false
-        },
-        {
-          "name": "@ctrl/tinycolor",
-          "version": "4.2.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ngx-bootstrap",
-          "version": "21.0.1",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "nx",
-          "version": "22.6.4",
-          "depCount": 36,
-          "hasInstallScript": true
-        },
-        {
-          "name": "telnyx",
-          "version": "6.29.7",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "litellm",
-          "version": "0.12.0",
-          "depCount": 6,
-          "hasInstallScript": false
-        },
-        {
-          "name": "npm",
-          "version": "11.12.1",
-          "depCount": 65,
-          "hasInstallScript": false
-        },
-        {
-          "name": "yarn",
-          "version": "1.22.22",
-          "depCount": 0,
-          "hasInstallScript": true
-        },
-        {
-          "name": "pnpm",
-          "version": "10.33.0",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "async",
-          "version": "3.2.6",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "bluebird",
-          "version": "3.7.2",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "rxjs",
-          "version": "7.8.2",
-          "depCount": 1,
-          "hasInstallScript": false
-        },
-        {
-          "name": "immer",
-          "version": "11.1.4",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "zod",
-          "version": "4.3.6",
-          "depCount": 0,
-          "hasInstallScript": false
-        },
-        {
-          "name": "yup",
-          "version": "1.7.1",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "joi",
-          "version": "18.1.2",
-          "depCount": 7,
-          "hasInstallScript": false
-        },
-        {
-          "name": "ajv",
-          "version": "8.18.0",
-          "depCount": 4,
-          "hasInstallScript": false
-        },
-        {
-          "name": "validator",
-          "version": "13.15.35",
-          "depCount": 0,
-          "hasInstallScript": false
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-04T21:35:10.693Z",
       "packages": [
         {
           "name": "axios",
